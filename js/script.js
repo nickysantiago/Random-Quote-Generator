@@ -66,7 +66,7 @@ var quotes = [
 
 //Selects a random quote object from the quotes array
 function getRandomQuote() {
-  return quotes[ Math.floor( Math.random() * 9 ) + 1 ];
+  return quotes[ Math.floor( Math.random() * quotes.length ) ];
 }
 
 //Creates the message to display in html
